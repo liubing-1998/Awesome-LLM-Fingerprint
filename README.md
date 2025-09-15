@@ -3,6 +3,20 @@
 
 ## 📖Table of Contents
 
+- [🔥Awesome-LLM-Fingerprint](#awesome-llm-fingerprint)
+  - [📖Table of Contents](#table-of-contents)
+    - [1. 🔍Fingerprinting LLMs: Vectors of Analysis](#1-fingerprinting-llms-vectors-of-analysis)
+      - [1.1 🔤Distributional Vector:](#11-distributional-vector)
+      - [1.2 📝Lexical Vector:](#12-lexical-vector)
+      - [1.3 🧠Syntactic Vector:](#13-syntactic-vector)
+      - [1.4 Semantic (Embedding) Vector:](#14-semantic-embedding-vector)
+    - [2. 🕵️Watermarking LLMs: Vectors of Injection](#2-️watermarking-llms-vectors-of-injection)
+      - [2.1 🛡️Token Selection Vector (Decoding-Time Injection):](#21-️token-selection-vector-decoding-time-injection)
+      - [2.2 🔍Syntactic Vector (Structural Injection):](#22-syntactic-vector-structural-injection)
+      - [2.3 🎯Semantic Vector (Meaning-Space Injection):](#23-semantic-vector-meaning-space-injection)
+      - [2.4 📝Post-Hoc Vector (Output-Text Injection):](#24-post-hoc-vector-output-text-injection)
+    - [3 📊 Related Survey](#3--related-survey)
+    - [4 🎭other](#4-other)
 
 ### 1. 🔍Fingerprinting LLMs: Vectors of Analysis
 
