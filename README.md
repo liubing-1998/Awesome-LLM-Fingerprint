@@ -15,7 +15,6 @@
       - [2.2 🔍Syntactic Vector (Structural Injection):](#22-syntactic-vector-structural-injection)
       - [2.3 🎯Semantic Vector (Meaning-Space Injection):](#23-semantic-vector-meaning-space-injection)
       - [2.4 📝Post-Hoc Vector (Output-Text Injection):](#24-post-hoc-vector-output-text-injection)
-      - [2.4 📝Post-Hoc Vector (Output-Text Injection):](#24-post-hoc-vector-output-text-injection-1)
       - [2.5 📝Parameter Vector Injection:](#25-parameter-vector-injection)
     - [3 📊 Related Survey](#3--related-survey)
     - [4 🎭other](#4-other)
@@ -73,7 +72,7 @@ Methods: Distribution of sentence lengths, parse tree complexity, frequency of d
 |:------------------------------------------|:--------------------:|:---------------------------------------------------------------------|:------------------:|
 | ✅ Detecting Stylistic Fingerprints of Large Language Models | 2025 | An ensemble of three classifiers with unanimous voting detects stylistic fingerprints in texts from Claude, Gemini, Llama, and OpenAI LLMs, achieving 99.88% precision and revealing similarities in unseen models. | [arXiv](https://arxiv.org/abs/2503.01659) |
 | ⛔️ Your Large Language Models Are Leaving Fingerprints | 2024 | Large language models leave unique linguistic fingerprints in generated text through subtle n-gram and POS frequency differences, enabling simple classifiers for robust detection and model attribution across domains. | [arXiv](https://arxiv.org/pdf/2405.14057) |
-|  |           |  | [arXiv](#), [Code](#) |
+|  |           |  | |
 
 #### 1.4 Semantic (Embedding) Vector:
 
@@ -141,7 +140,7 @@ Methods: Guiding the model to produce specific, uncommon but valid, syntactic pa
 | ❓❓Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation? | ACL 2025 | The paper investigates the vulnerability of LLM watermarking, proposing pre- and post-distillation removal techniques like targeted paraphrasing and watermark neutralization, revealing limitations in preventing unauthorized knowledge transfer. | [arXiv](https://arxiv.org/abs/2502.11598) |
 | ❓❓Can Watermarked LLMs be Identified by Users via Crafted Prompts? | ICML 2024 | The paper explores how text watermarking for LLMs, while effective in detecting outputs and preventing misuse, can be identified by users through crafted prompts, introducing the Water-Probe method to detect watermark biases. | [arXiv](https://arxiv.org/abs/2410.03168),[Code](https://github.com/THU-BPM/Watermarked_LLM_Identification) |
 | ❓❓Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks | NeurIPS 2025 poster  |The paper "Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks" introduces the SEEK scheme, breaking the trade-off between scrubbing and spoofing robustness by using equivalent texture keys, achieving significant gains of +24.6% and +92.3% respectively.| [arXiv](https://arxiv.org/abs/2507.06274) |
-|  |           |  | [arXiv](#), [Code](#) |
+|  |           |  | |
 
 #### 2.3 🎯Semantic Vector (Meaning-Space Injection):
 
@@ -173,18 +172,8 @@ Methods: Synonym replacements, imperceptible character additions (e.g., zero-wid
 
 | 📄Paper Title                              | 📅Date & Publication | 💡TL;DR                                                                 | 🔗Links            |
 |:------------------------------------------|:--------------------:|:---------------------------------------------------------------------|:------------------:|
-|  |           |  | [arXiv](#), [Code](#) |
-
-#### 2.4 📝Post-Hoc Vector (Output-Text Injection):
-
-Focus: Modifying the text after it has been fully generated.
-
-Methods: Synonym replacements, imperceptible character additions (e.g., zero-width spaces), or slight rephrasing. These methods do not alter the generation process itself.
-
-| 📄Paper Title                              | 📅Date & Publication | 💡TL;DR                                                                 | 🔗Links            |
-|:------------------------------------------|:--------------------:|:---------------------------------------------------------------------|:------------------:|
 | ❓Watermarking LLMs—Challenges and Opportunities in Electronic Design Automation | IEEE 2025 | This paper reviews watermarking techniques for LLMs in electronic design automation, tackling risks like IP piracy and vulnerabilities in generated RTL code, while exploring opportunities and challenges for robust hardware detection. | [ieee](https://ieeexplore.ieee.org/document/11125763) |
-|  |           |  | [arXiv](#), [Code](#) |
+|  |           |  |  |
 #### 2.5 📝Parameter Vector Injection:
 
 Focus: Embedding watermarks directly into LLM weights without retraining, preserving functionality for IP tracing.
@@ -195,7 +184,7 @@ Methods: This vector embeds watermarks directly into model weights during fine-t
 |:------------------------------------------|:--------------------:|:---------------------------------------------------------------------|:------------------:|
 | ✅ Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition | 2025 | Fingerprint Vector enables scalable backdoor fingerprint transfer from base LLMs to downstream models via parameter delta addition, achieving high effectiveness, harmlessness, and robustness. | [arXiv](https://arxiv.org/pdf/2409.08846), [Code](https://github.com/Xuzhenhua55/Fingerprint-Vector) |
 | ❓Robust and Efficient Watermarking of Large Language Models Using Error Correction Codes | PETs 2025 | This paper proposes a robust white-box watermarking scheme for large language models, integrating error correction codes with weight permutations to embed and extract identifiers efficiently while resisting adaptive attacks and preserving performance. | [pdf](https://www.petsymposium.org/popets/2025/popets-2025-0126.pdf) |
-|  |           |  | [arXiv](#), [Code](#) |
+|  |           |  |  |
 
 ### 3 📊 Related Survey
 
@@ -220,7 +209,6 @@ Methods: This vector embeds watermarks directly into model weights during fine-t
 | ❓❓❓ MEraser: An Effective Fingerprint Erasure Approach for Large Language Models | ACL 2025 | MEraser employs a two-phase fine-tuning strategy with mismatched and clean datasets to erase backdoor-based fingerprints from LLMs, achieving 100% removal while preserving performance using under 1,000 samples. | [arXiv](https://arxiv.org/abs/2506.12551), [Code](https://github.com/JingxuanZhang77/MEraser) |
 | ❓❓❓A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly | 2024 |  | [arXiv](https://arxiv.org/pdf/2312.02003), [Code](#) |
 | ❓❓LLM Fingerprinting via Semantically Conditioned Watermarks | 2025 |  与Robust LLM Fingerprinting via Domain-Specific Watermarks一篇  | [arXiv](https://arxiv.org/abs/2505.16723)                    |
-|  | |  |  |
 |  | |  |  |
 
 
